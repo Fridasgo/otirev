@@ -1,0 +1,118 @@
+header{
+    width: 99%;
+    display: flex;
+    flex-direction:column;
+    font-size: 20px;
+    background-color: rgb(255, 0, 144);
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: flex;
+}
+header ul li{
+    margin: 10px 40px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 175px;
+}
+h1{
+   font-size: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+p{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin: 10px 8px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(255, 162, 224);
+}
+#mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 99%;
+    align-items: center;
+    background-color: rgb(255, 162, 224);
+    padding: 15px 15px 20px 20px;
+    margin: 10px 10px 10px 10px;
+}
+.caja2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 99%;
+    height: 100%;  
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+
+}
+.caja3 img{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+.contenedor img{
+    border-radius: 40%;
+    border-color: black;
+    display: flex;
+    width: 20%;
+}
+.contenedor p{
+    font-size: 17px;
+    align-items: flex-start;
+    font-display: flex;
+    display: flex;
+}
+footer{
+    margin: 13px 13px 13px 13px;
+    background-color: rgb(255, 0, 144);
+}
+footer img{
+    display: flex;
+    width: 30px;
+    align-items: flex-start;
+}
+footer p{
+   font-family: "Galada", cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap')
