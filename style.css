@@ -1,118 +1,177 @@
-header{
-    width: 99%;
+header {
+    width: auto;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     font-size: 20px;
     background-color: rgb(255, 0, 144);
     justify-content: space-between;
-    margin: 10px 10px 10px 10px;
-    padding: 15px 15px 15px 15px;
     align-items: center;
 }
-header ul{
+
+header ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-display: flex;
 }
-header ul li{
-    margin: 10px 40px 10px 10px;
-    padding: 10px 10px 10px 10px;
+
+header ul li {
+    margin: 0px;
+    padding:0px;
     color: black;
-    font-size: 150%;
+    font-size: 100%;
+    width: 90%;
 }
-a{
+
+ul button {
+    background-color: #f8f9fa5f;
+    border: 1px solid black;
+    height: 38px;
+    color: black;
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+    padding: 0px;
+}
+
+ul:hover{
+    text-decoration: underline;
+}
+
+ul a{
     text-decoration: none;
 }
-img{
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
     width: 175px;
 }
-h1{
-   font-size: 30px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h2{
+
+h1 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h3{
+
+h2 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h4{
+
+h3 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-p{
+
+p {
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     flex-direction: row;
     width: auto;
     height: auto;
     padding: 30px;
-    margin: 10px 8px 10px 10px;
+    margin: 10px 3% 10px 3%;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     background-color: rgb(255, 162, 224);
+    border-radius: 20px;
 }
-#mapa{
+
+#mapa {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 99%;
+    width: auto;
     align-items: center;
     background-color: rgb(255, 162, 224);
-    padding: 15px 15px 20px 20px;
-    margin: 10px 10px 10px 10px;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 20px;
 }
-.caja2{
+
+section{
+    margin: 3%;
+}
+
+#video {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     width: 99%;
-    height: 100%;  
+    height: 100%;
     padding: 10px;
     margin: 10px 10px 10px 10px;
     align-items: center;
 
 }
-.caja3 img{
+
+#precios {
     width: 60%;
     height: 50%;
-    display: flex;
-    align-items:center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 150px;
+    margin: 0px;
+    border-radius: 30px;
 }
-.contenedor img{
+
+#dinero{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+  border-radius: 60% ;
+}
+
+.contenedor img {
     border-radius: 40%;
     border-color: black;
     display: flex;
     width: 20%;
 }
-.contenedor p{
+
+.contenedor p {
     font-size: 17px;
     align-items: flex-start;
     font-display: flex;
     display: flex;
 }
-footer{
-    margin: 13px 13px 13px 13px;
+
+footer {
+    margin: 20px;
     background-color: rgb(255, 0, 144);
+    width: auto;
+    border-radius: 20px;
 }
-footer img{
+
+footer img {
     display: flex;
     width: 30px;
     align-items: flex-start;
 }
-footer p{
-   font-family: "Galada", cursive;
+
+footer p {
+    font-family: "Galada", cursive;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap')
