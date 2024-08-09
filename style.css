@@ -27,12 +27,11 @@ header ul li {
 ul button {
     background-color: #f8f9fa5f;
     border: 1px solid black;
-    height: 38px;
     color: black;
     border-radius: 15px;
     font-size: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-right: 60px;
     padding: 0px;
 }

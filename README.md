@@ -1,23 +1,20 @@
-# Mi primera pagina web
+# Mi Primera Página Web
 
-Ésta página nace del primer proyecto para adentrarme en el mundo digital junto con mujer digital y JA México que me enseñaron lo básico para usar Visual Studio Code.
-
-Ha sido perfeccionada y editada con los conocimientos que he ido adquiriendo, ya sea investigación personal o programas como el de TECHNOLOCHICAS PRO con el que he aprendido el uso de bootstrap.
+## Descripción
+Este proyecto es el resultado de mi primer acercamiento al mundo digital, desarrollado en colaboración con Mujer Digital y JA México, donde aprendí los conceptos básicos de Visual Studio Code. A lo largo del tiempo, he perfeccionado y editado esta página con los conocimientos adquiridos a través de investigación personal y programas educativos como TECHNOLOchicas PRO, donde aprendí a utilizar Bootstrap y JS.
 
 [Proyecto Desplegado](https://otirev.vercel.app/)
 
-## Secciones de mi sitio
+## Secciones del Sitio
+- **Menú**: Detalles sobre las opciones de paletas y café disponibles.
+- **Contacto**: Información para comunicarse con nosotros.
+- **Ubicación**: Dirección y mapa de nuestra paletería y cafetería.
 
+## Tecnologías Utilizadas
+- **HTML**: Estructura del contenido de la página.
+- **CSS**: Estilos y diseño visual.
+- **Bootstrap**: Framework para diseño responsivo y componentes predefinidos.
+- **JavaScript**: Funcionalidades interactivas.
 
-
-## Tecnologías
-
-* HTML
-* CSS
-* Bootstrap
-* Javascipt
-
----
 
 Desarrollado por Frida SG Ortiz
-
